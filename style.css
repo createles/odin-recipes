@@ -1,10 +1,29 @@
 #main-head {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: content-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-align: center;
+    background-color: brown;
+    color: black;
+    padding: 8px;
+    width: 800px;
+    margin: 0 auto;
+    border: black solid;
 }
 
 #main-lower {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text;
-    outline-style: dashed;
+    margin-left: 20px;
+    background-color: tan;
+    margin-right: 400px;
+    display: inline;
+}
+
+.button {
+    display: inline-block;
+    padding: 10 px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
